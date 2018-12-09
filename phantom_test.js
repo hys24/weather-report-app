@@ -15,7 +15,7 @@ page.clipRect = {
 page.open(url, function(status) {
   console.log("Status: " + status);
   if (status === "success") {
-    page.render('./image_phantomjs.png');
+    page.render('./tmp/image_phantomjs.png');
   }
   phantom.exit();
   //
