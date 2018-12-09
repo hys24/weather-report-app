@@ -18,4 +18,5 @@ page.open(url, function(status) {
     page.render('./image_phantomjs.png');
   }
   phantom.exit();
-}); 
+  //
+});
